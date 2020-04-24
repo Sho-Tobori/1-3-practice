@@ -11,11 +11,13 @@ header {
 header .headline {
 	font-size: 22px;
 }
+/*これは間違っていない？*/
 
 .list {
 	padding-left: 40px;
 }
 
-nav .list-item {
+nav{
 	text-align: center;
 }
+/*nav要素内のため、クラスで絞ってはいけない*/
